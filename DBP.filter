@@ -343,7 +343,7 @@ ItemDisplay[STAT498>0]: %DARK_GREEN% [2xBoss]%NAME%%CONTINUE%{%DARK_GREEN%WARNIN
 ItemDisplay[STAT408>0]: %ORANGE% [CRUSH]%NAME%%CONTINUE%{%ORANGE%WARNING: Contains Crushing Blow %CL%%NAME%}
 
 // Reduced Block
-ItemDisplay[STAT412>0]: %BLACK% [-BLOCK]%NAME%%CONTINUE%{%BLACK%WARNING: Reduced Block %CL%%NAME%}
+ItemDisplay[STAT412<0]: %WHITE% [-BLOCK]%NAME%%CONTINUE%{%WHITE%WARNING: Reduced Block %CL%%NAME%}
 
 // Buffs / Tags
 // Map has Standard of Heroes applied
